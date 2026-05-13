@@ -51,6 +51,13 @@ cp config.example.env .env
 nano .env
 ```
 
+Optional preflight check:
+
+```bash
+chmod +x check_server.sh
+./check_server.sh
+```
+
 Install as a service:
 
 ```bash
